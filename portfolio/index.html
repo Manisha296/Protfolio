@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Manisha V | Full Stack Developer</title>
+<meta name="description" content="Portfolio of Manisha V, a full stack developer working with Java, Spring Boot, Laravel, Vue.js and MySQL.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="#top">Manisha V</a>
+  <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="nav">Menu</button>
+  <nav id="nav" class="nav">
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <p class="kicker">Full stack developer</p>
+      <h1>Manisha V</h1>
+      <p class="lead">I build REST APIs, databases and the web interfaces on top of them. I work with Java and Spring Boot, and with PHP, Laravel and Vue.js.</p>
+      <div class="actions">
+        <a class="btn primary" href="#projects">See my projects</a>
+        <a class="btn" href="#contact">Contact me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2>About</h2>
+    <div class="about">
+      <p>I am an Information Technology graduate with production internship experience in PHP, Laravel and Vue.js, and project experience in Java and Spring Boot. I enjoy backend work: designing database schemas, writing clean API endpoints, and debugging until things behave.</p>
+      <p>At my latest internship I built workflow automation that cut manual customer support effort by 40%. I also review code, write QA test cases and keep documentation up to date, so the team can pick up my work easily.</p>
+    </div>
+    <dl class="stats">
+      <div><dt>API endpoints built</dt><dd>10+</dd></div>
+      <div><dt>Less manual support work</dt><dd>40%</dd></div>
+      <div><dt>Team size at internship</dt><dd>5</dd></div>
+      <div><dt>CGPA</dt><dd>8.16</dd></div>
+    </dl>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <h2>Experience</h2>
+    <ol class="timeline">
+      <li>
+        <p class="when">Jan 2026 to May 2026</p>
+        <h3>Full Stack Developer Intern</h3>
+        <p class="org">Yugmedeals Private Limited</p>
+        <ul>
+          <li>Built an AI-powered WhatsApp marketing platform with Vue.js, PHP, Laravel and MySQL, for real-time customer communication and workflow automation.</li>
+          <li>Developed and documented 10+ RESTful API endpoints using Laravel and MySQL.</li>
+          <li>Designed automated response-routing features that reduced manual customer support effort by 40%.</li>
+          <li>Did QA testing and code reviews in a 5-member team, using Git branching and pull-request workflows.</li>
+          <li>Maintained technical documentation for application modules and development workflows.</li>
+        </ul>
+      </li>
+      <li>
+        <p class="when">Jan 2025 to Feb 2025</p>
+        <h3>Full Stack Web Developer Intern</h3>
+        <p class="org">8Queens Software Technologies Pvt. Ltd.</p>
+        <ul>
+          <li>Delivered web applications using HTML5, CSS3, JavaScript, Java and SQL.</li>
+          <li>Optimized MySQL schemas and query structures, reducing page load times while keeping data integrity.</li>
+          <li>Found and fixed production defects across the full stack, wrote QA test cases and maintained documentation.</li>
+        </ul>
+      </li>
+    </ol>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+
+    <article class="project">
+      <div class="project-meta">
+        <h3>Library Management System</h3>
+        <ul class="tags"><li>PHP</li><li>Laravel</li><li>MySQL</li></ul>
+        <div class="links">
+          <a href="https://github.com/Manisha296" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+      <div class="project-body">
+        <p>A web-based system for managing books, users and lending operations.</p>
+        <ul>
+          <li>RESTful APIs with CRUD operations for books, users and issue/return management.</li>
+          <li>Authentication, role-based access, validation and database relationships using Laravel Eloquent ORM.</li>
+          <li>Controller, Service, Repository architecture. APIs tested with Postman.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="project">
+      <div class="project-meta">
+        <h3>Online Food Order Management System</h3>
+        <ul class="tags"><li>Java</li><li>Spring Boot</li><li>Hibernate</li><li>MySQL</li></ul>
+        <div class="links">
+          <a href="https://github.com/Manisha296" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+      <div class="project-body">
+        <p>A RESTful order system with product management, customer registration, order processing and real-time tracking.</p>
+        <ul>
+          <li>Built with Spring Boot, Hibernate and Spring Data JPA in a layered Controller, Service, Repository, Entity architecture.</li>
+          <li>Designed relational schemas and CRUD APIs. Tested every endpoint in Postman for correct request and response handling.</li>
+        </ul>
+      </div>
+    </article>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <dl class="skills">
+      <div><dt>Backend</dt><dd>Java, Spring Boot, PHP, Laravel</dd></div>
+      <div><dt>Frontend</dt><dd>React.js, Vue.js, HTML5, CSS3, JavaScript</dd></div>
+      <div><dt>Database</dt><dd>MySQL, schema design, query optimization</dd></div>
+      <div><dt>Core concepts</dt><dd>Data Structures and Algorithms, OOP, DBMS, SDLC</dd></div>
+      <div><dt>Tools</dt><dd>Git, GitHub, VS Code, Postman</dd></div>
+      <div><dt>Ways of working</dt><dd>API development, debugging, QA testing, code review, documentation</dd></div>
+    </dl>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section">
+    <h2>Education and certifications</h2>
+    <div class="edu">
+      <div>
+        <h3>B.Tech, Information Technology</h3>
+        <p class="org">Ganadipathy Tulsi's Jain Engineering College, Tamil Nadu</p>
+        <p class="when">Nov 2022 to May 2026 &middot; CGPA 8.16 / 10</p>
+      </div>
+      <ul class="certs">
+        <li><strong>Full Stack Developer Internship Certificate</strong><span>Yugmedeals Private Limited, May 2026</span></li>
+        <li><strong>Full Stack Web Development</strong><span>8Queens Software Technologies, Feb 2025</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact">
+    <h2>Contact</h2>
+    <p class="lead">I am looking for a full stack or backend developer role. Send me a message and I will reply soon.</p>
+    <div class="actions">
+      <a class="btn primary" href="mailto:manisha.v2418@gmail.com">Email me</a>
+      <button class="btn" id="copyBtn" type="button">Copy email</button>
+    </div>
+    <ul class="contact-list">
+      <li><span>Email</span><a href="mailto:manisha.v2418@gmail.com">manisha.v2418@gmail.com</a></li>
+      <li><span>Phone</span><a href="tel:+917200661493">+91 72006 61493</a></li>
+      <li><span>LinkedIn</span><a href="https://linkedin.com/in/manisha-v2204" target="_blank" rel="noopener">linkedin.com/in/manisha-v2204</a></li>
+      <li><span>GitHub</span><a href="https://github.com/Manisha296" target="_blank" rel="noopener">github.com/Manisha296</a></li>
+    </ul>
+    <p class="sr-only" id="copyStatus" role="status" aria-live="polite"></p>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year">2026</span> Manisha V</p>
+  <a href="#top">Back to top</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
